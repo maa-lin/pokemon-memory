@@ -1,0 +1,17 @@
+.description {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+  padding: 24px;
+  background: #8b5a2b;
+  border-top: 6px solid #cd9d6f;
+  border-left: 6px solid #cd9d6f;
+  border-bottom: 6px solid #61412a;
+  border-right: 6px solid #61412a;
+  box-shadow: 0 0 0 4px #242424;
+  border-radius: 1px;
+}
