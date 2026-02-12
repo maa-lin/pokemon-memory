@@ -4,21 +4,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
-  padding: 18px;
+  padding: 12px;
   background: #8b5a2b;
-  border-top: 5px solid #cd9d6f;
-  border-left: 5px solid #cd9d6f;
-  border-bottom: 5px solid #61412a;
-  border-right: 5px solid #61412a;
+  border-top: 4px solid #cd9d6f;
+  border-left: 4px solid #cd9d6f;
+  border-bottom: 4px solid #61412a;
+  border-right: 4px solid #61412a;
   box-shadow: 0 0 0 3px #242424;
   border-radius: 1px;
 
   h1 {
-    letter-spacing: 4px;
-    font-size: 26px;
-    margin-bottom: 8px;
+    letter-spacing: 3px;
+    font-size: 24px;
+    margin-bottom: 6px;
     color: rgb(255, 234, 0);
   }
 }

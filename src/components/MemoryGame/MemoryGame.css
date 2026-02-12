@@ -7,7 +7,9 @@
   .game-and-description-container {
     width: 425px;
     height: 100%;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     .card-container {
       display: grid;
@@ -15,12 +17,12 @@
       max-height: 100%;
       gap: 12px;
       grid-template-columns: repeat(4, 1fr);
-      padding: 16px;
+      padding: 12px;
       background: #8b5a2b;
-      border-top: 5px solid #cd9d6f;
-      border-left: 5px solid #cd9d6f;
-      border-bottom: 5px solid #61412a;
-      border-right: 5px solid #61412a;
+      border-top: 4px solid #cd9d6f;
+      border-left: 4px solid #cd9d6f;
+      border-bottom: 4px solid #61412a;
+      border-right: 4px solid #61412a;
       box-shadow: 0 0 0 3px #242424;
       border-radius: 1px;
     }

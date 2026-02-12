@@ -1,28 +1,28 @@
 .score {
   display: flex;
   align-items: center;
-  padding: 8px 16px;
-  margin: 14px 0;
+  padding: 8px 12px;
+  margin: 12px 0;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 16px;
   background: #8b5a2b;
-  border-top: 5px solid #cd9d6f;
-  border-left: 5px solid #cd9d6f;
-  border-bottom: 5px solid #61412a;
-  border-right: 5px solid #61412a;
+  border-top: 4px solid #cd9d6f;
+  border-left: 4px solid #cd9d6f;
+  border-bottom: 4px solid #61412a;
+  border-right: 4px solid #61412a;
   box-shadow: 0 0 0 3px #242424;
   border-radius: 1px;
 
   button {
     font-family: "Jersey 10", monospace;
-    font-size: 14px;
+    font-size: 12px;
     background: #938775;
-    padding: 4px 12px;
+    padding: 3px 12px;
     border-radius: 1px;
-    border-top: 5px solid #cabeab;
-    border-left: 5px solid #cabeab;
-    border-bottom: 5px solid rgb(58, 50, 44);
-    border-right: 5px solid rgb(58, 50, 44);
+    border-top: 4px solid #cabeab;
+    border-left: 4px solid #cabeab;
+    border-bottom: 4px solid rgb(58, 50, 44);
+    border-right: 4px solid rgb(58, 50, 44);
     box-shadow: 0 0 0 2px #242424;
     cursor: pointer;
     letter-spacing: 1px;
@@ -32,22 +32,22 @@
     }
 
     &:active {
-      border-top: 5px solid rgb(58, 50, 44);
-      border-left: 5px solid rgb(58, 50, 44);
-      border-bottom: 5px solid #cabeab;
-      border-right: 5px solid #cabeab;
+      border-top: 4px solid rgb(58, 50, 44);
+      border-left: 4px solid rgb(58, 50, 44);
+      border-bottom: 4px solid #cabeab;
+      border-right: 4px solid #cabeab;
     }
   }
 
   .score-container {
     display: flex;
     justify-content: flex-end;
-    gap: 16px;
+    gap: 14px;
 
     p {
       span {
         color: rgb(255, 234, 0);
-        margin-right: 4px;
+        margin-right: 2px;
         letter-spacing: 1px;
       }
     }
