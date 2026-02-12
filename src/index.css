@@ -18,10 +18,3 @@ main {
   justify-content: center;
   align-items: center;
 }
-
-h1 {
-  font-size: 2.2rem;
-  margin-bottom: 0.8rem;
-  color: #ffe100;
-  letter-spacing: 4px;
-}
