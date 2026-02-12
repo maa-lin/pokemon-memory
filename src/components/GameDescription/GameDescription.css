@@ -22,14 +22,3 @@
     color: rgb(255, 234, 0);
   }
 }
-
-@media (max-width: 768px) {
-  .description {
-    font-size: 16px;
-
-    h1 {
-      font-size: 24px;
-      margin-bottom: 8px;
-    }
-  }
-}
