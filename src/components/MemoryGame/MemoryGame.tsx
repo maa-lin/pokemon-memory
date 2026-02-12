@@ -8,7 +8,6 @@ import { MemoryCard } from "../../models/MemoryCard";
 import { useState } from "react";
 import { Score } from "../Score/Score";
 import { PuffLoader } from "react-spinners";
-import starIcon from './assets/icons8-pixel-star-48.png';
 
 export const MemoryGame = () => {
   const [loading, pokemons] = useFetch<IPokemon>(generateUrls());
@@ -107,7 +106,7 @@ export const MemoryGame = () => {
           <div className="game-and-description-container">
           <GameDescription />
           <Score tries={tries} highScore={highScore} />
-        {highScoreBanner && <div className="highscore-banner"><h1>New highscore!</h1><img src={starIcon} /></div>}
+        {highScoreBanner && <div className="highscore-banner"><h1>New highscore!</h1><img src="public\icons8-pixel-star-48.png" /></div>}
           {loading ? <div className="spinner"><PuffLoader /></div> :
           <section className="card-container">
             {memoryCards?.map((m) => (
