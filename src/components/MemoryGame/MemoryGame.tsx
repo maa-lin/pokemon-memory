@@ -106,7 +106,7 @@ export const MemoryGame = () => {
           <div className="game-and-description-container">
           <GameDescription />
           <Score tries={tries} highScore={highScore} />
-        {highScoreBanner && <div className="highscore-banner"><h1>New highscore!</h1><img src="public\icons8-pixel-star-48.png" /></div>}
+        {highScoreBanner && <div className="highscore-banner"><h1>New highscore!</h1><img src="public/icons8-pixel-star-48.png" /></div>}
           {loading ? <div className="spinner"><PuffLoader /></div> :
           <section className="card-container">
             {memoryCards?.map((m) => (
